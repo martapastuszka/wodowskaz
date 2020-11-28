@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wodowskaz</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+  
+</head>
+<body>
+    <div id="wrapper">
+        <div id="bothMeters">
+            <p>Both meters</p>
+            <div class="chart-container">
+                <canvas id="dailyUsage"></canvas>
+            </div>
+            <p>30-dniowy koszt wody</p>
+            <p>30-dniowy koszt śmieci</p>
+            <div class="chart-container2">
+                <canvas id="dailyAverage"></canvas>
+            </div>
+            <div class="chart-container2">
+                <canvas id="dailyAverageTemp"></canvas>
+            </div>
+        </div>
+
+        <p>Średnie dzienne zużycie wody w skali ostatnich 7 dni</p>
+        <p>Kuchnia</p>
+        <p>Łazienka</p>
+
+        <p>Zimna woda</p>
+        <p>Ciepła woda</p>
+  
+        <div id="metersDivided">
+            <div id="kitchen">
+                <p>Kitchen</p>
+                <div class="chart-container3">
+                    <canvas id="dailyUsageKitch"></canvas>
+                </div>
+            </div>
+            <div id="bathroom">
+                <p>Bathroom</p>
+                <div class="chart-container3">
+                    <canvas id="dailyUsageBath"></canvas>
+                </div>
+            </div>
+        </div>
+               
+    
+            
+        
+    </div>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>

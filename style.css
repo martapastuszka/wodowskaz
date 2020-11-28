@@ -1,0 +1,51 @@
+body{
+    background-color: lightslategray;
+}
+
+#wrapper{
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
+
+/* #metersDivided{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+#kitchen{
+background-color: lightyellow;
+/* width: 200px; */
+margin: 10px;
+
+}
+
+#bathroom{
+    background-color: linen;
+    /* width: 200px; */
+    margin: 10px;
+}
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 50vh;
+    width: 80vw;
+  }
+
+  .chart-container2 {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    height: 30vh;
+    width: 48vw;
+  }
+
+  
+  .chart-container3 {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    height: 30vh;
+    width: 40vw;
+  }

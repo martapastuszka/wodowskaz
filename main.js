@@ -5,9 +5,9 @@ var dailyUsage = new Chart(ctx, {
         labels: ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30'],
         datasets: [{
             data: [12, 19, 3, 5, 2, 3],
-            // backgroundColor: [
-            //     'rgba(255, 99, 132, 0.2)',
-            // ],
+            backgroundColor: [
+                'rgba(115, 112, 105, 0.2)',            
+            ],
             // borderColor: [
             //     'rgba(255, 99, 132, 1)',
             // // ],
@@ -17,7 +17,8 @@ var dailyUsage = new Chart(ctx, {
     options: {
         title: {
             display: true,
-            text: 'Dzienne zużycie wody'
+            text: 'Dzienne zużycie wody',
+            fontSize: 20,
         },
         legend:{
             display: false,
@@ -40,17 +41,23 @@ var dailyAverage = new Chart(ctx, {
         datasets: [{
             data: [12, 19],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
+                'rgba(182, 255, 0, 0.2)',
+                'rgba(255, 186, 0, 0.2)',
             ],
+          
         }]
     },
     options: {
         title: {
             display: true,
-            text: 'Średnie dzienne zużycie wody w ciągu ostatnich 7 dni - kuchnia/łazienka'
+            text: 'Średnie dzienne zużycie wody w ciągu ostatnich 7 dni - kuchnia/łazienka',
+            fontSize: 20,
         },
         legend:{
             display: true,
+            labels:{
+                fontSize: 19
+            }
         },
         scales: {
             xAxes: [{
@@ -74,16 +81,21 @@ var dailyAverage = new Chart(ctx, {
             data: [40, 19],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
+                'rgba(0, 115, 254, 0.2)'
             ],
         }]
     },
     options: {
         title: {
             display: true,
-            text: 'Średnie dzienne zużycie wody w ciągu ostatnich 7 dni- temperatura'
+            text: 'Średnie dzienne zużycie wody w ciągu ostatnich 7 dni- temperatura',
+            fontSize: 20,
         },
         legend:{
             display: true,
+            labels:{
+                fontSize: 19
+            }
         },
      
         scales: {
@@ -107,9 +119,9 @@ var dailyUsageKitch = new Chart(ctx, {
         labels: ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30'],
         datasets: [{
             data: [12, 19, 3, 5, 2, 3],
-            // backgroundColor: [
-            //     'rgba(255, 99, 132, 0.2)',
-            // ],
+                backgroundColor: [
+                'rgba(182, 255, 0, 0.2)',
+             ],
             // borderColor: [
             //     'rgba(255, 99, 132, 1)',
             // // ],
@@ -119,7 +131,8 @@ var dailyUsageKitch = new Chart(ctx, {
     options: {
         title: {
             display: true,
-            text: 'Dzienne zużycie wody - Kuchnia'
+            text: 'Dzienne zużycie wody - Kuchnia',
+            fontSize: 20,
         },
         legend:{
             display: false,
@@ -141,9 +154,9 @@ var dailyUsageBath = new Chart(ctx, {
         labels: ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30'],
         datasets: [{
             data: [12, 19, 3, 5, 2, 3],
-            // backgroundColor: [
-            //     'rgba(255, 99, 132, 0.2)',
-            // ],
+            backgroundColor: [
+                'rgba(255, 186, 0, 0.2)',
+            ],
             // borderColor: [
             //     'rgba(255, 99, 132, 1)',
             // // ],
@@ -153,7 +166,8 @@ var dailyUsageBath = new Chart(ctx, {
     options: {
         title: {
             display: true,
-            text: 'Dzienne zużycie wody - Łazienka'
+            text: 'Dzienne zużycie wody - Łazienka',
+            fontSize: 20,
         },
         legend:{
             display: false,

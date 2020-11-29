@@ -5,31 +5,34 @@ body{
 #wrapper{
     background-color: whitesmoke;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
-/* #metersDivided{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-} */
+#metersDivided{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid blue; */
+} 
 
 #kitchen{
-background-color: lightyellow;
+/* background-color: lightyellow; */
 /* width: 200px; */
 margin: 10px;
 
 }
 
 #bathroom{
-    background-color: linen;
+    /* background-color: linen; */
     /* width: 200px; */
     margin: 10px;
 }
 .chart-container {
     position: relative;
-    margin: auto;
-    height: 50vh;
+    margin-top: 20px;
+    /* margin: auto; */
+    /* height: 50vh; */
     width: 80vw;
   }
 
@@ -37,15 +40,28 @@ margin: 10px;
     position: relative;
     display: inline-block;
     margin: auto;
-    height: 30vh;
+    /* height: 30vh; */
     width: 48vw;
   }
 
-  
   .chart-container3 {
     position: relative;
     display: inline-block;
     margin: auto;
-    height: 30vh;
+    /* height: 30vh; */
     width: 40vw;
+  }
+
+  #bothMeters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid green; */
+  }
+
+  .value{
+    min-height: 30px;
+    min-width: 40px;
+    border: 1px solid grey;
   }

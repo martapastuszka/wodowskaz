@@ -11,38 +11,48 @@
   
 </head>
 <body>
-    <div id="wrapper">
+    <div id="wrapper">      
+        <h1>WODOWSKAZ</h1>
+        <!-- <p>Both meters</p> -->
         <div id="bothMeters">
-            <p>Both meters</p>
             <div class="chart-container">
                 <canvas id="dailyUsage"></canvas>
+                <h2>30-dniowy koszt wody:</h2>
+                <div class="value"></div>
+                <h2>30-dniowy koszt śmieci:</h2>
+                <div class="value"></div>
             </div>
-            <p>30-dniowy koszt wody</p>
-            <p>30-dniowy koszt śmieci</p>
+
             <div class="chart-container2">
                 <canvas id="dailyAverage"></canvas>
             </div>
             <div class="chart-container2">
                 <canvas id="dailyAverageTemp"></canvas>
             </div>
+
+            <div class="chart-container">
+                <h2>Kuchnia:</h2>
+                <div class="value"></div>
+                <h2>Łazienka:</h2>
+                <div class="value"></div>
+
+                <h2>Zimna woda:</h2>
+                <div class="value"></div>
+                <h2>Ciepła woda:</h2>
+                <div class="value"></div>
+            </div>
+        
         </div>
 
-        <p>Średnie dzienne zużycie wody w skali ostatnich 7 dni</p>
-        <p>Kuchnia</p>
-        <p>Łazienka</p>
-
-        <p>Zimna woda</p>
-        <p>Ciepła woda</p>
-  
         <div id="metersDivided">
             <div id="kitchen">
-                <p>Kitchen</p>
+                <h2>Kuchnia</h2>
                 <div class="chart-container3">
                     <canvas id="dailyUsageKitch"></canvas>
                 </div>
             </div>
             <div id="bathroom">
-                <p>Bathroom</p>
+                <h2>Łazienka</h2>
                 <div class="chart-container3">
                     <canvas id="dailyUsageBath"></canvas>
                 </div>
